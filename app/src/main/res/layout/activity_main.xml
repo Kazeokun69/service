@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            app:srcCompat="@mipmap/pikacu" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="Tegar Prima N"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Universitas Teknologi Yogyakarta"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/btn_fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#064BFF"
+                android:text="Facebook" />
+
+            <Button
+                android:id="@+id/btn_ig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#DB03E9"
+                android:text="Instagram" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:text="Fiersa Besari - Waktu Yang salah"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_width="105dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/play" />
+
+            <Button
+                android:id="@+id/btn_pause"
+                android:layout_width="73dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/pause" />
+
+            <Button
+                android:id="@+id/btn_stop"
+                android:layout_width="48dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/stop" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="448dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/vector" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
